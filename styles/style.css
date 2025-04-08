@@ -100,6 +100,9 @@ ol {
 }
 
 .search-form__label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-weight: 400;
   font-size: 18px;
   line-height: 100%;
@@ -134,7 +137,8 @@ ol {
 }
 
 .search-form__textfield:active {
-  outline: 1px solid #fff;
+  border-right: 1px solid #fff;
+  border-left: 1px solid #fff;
 }
 
 .search-form__textfield:focus {
@@ -150,6 +154,7 @@ ol {
   align-items: center;
   gap: 15px;
   width: 212px;
+  padding-top: 3px;
 }
 
 .search-form__pseudo-checkbox {
@@ -204,6 +209,8 @@ ol {
   width: 390px;
   overflow: auto;
   overflow-x: hidden;
+  gap: 33px;
+  padding-bottom: 3px;
 }
 
 .content__list {
