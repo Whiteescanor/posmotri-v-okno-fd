@@ -67,7 +67,7 @@ ol {
   position: relative;
   width: 711px;
   height: 386px;
-  margin-bottom: 22px;
+  margin-bottom: 20px;
 }
 
 .result__video {
@@ -80,8 +80,7 @@ ol {
 .search-form {
   display: flex;
   justify-content: space-between;
-  gap: 38px;
-  margin-bottom: 2px;
+  gap: 40px;
 }
 
 .search-form__fieldset {
@@ -106,14 +105,13 @@ ol {
   font-weight: 400;
   font-size: 18px;
   line-height: 100%;
-  gap: 5px;
+  gap: 6px;
+  padding-bottom: 2px;
 }
-
-.search-form__label:hover {
+.search-form__label-text:hover {
   text-decoration: underline 1px #fff;
   cursor: pointer;
 }
-
 .search-form__label:has(:focus-visible) {
   outline: 1px solid #fff;
   outline-offset: 1px;
@@ -125,6 +123,8 @@ ol {
   border: none;
   border-top: 1px solid #fff;
   border-bottom: 1px solid #fff;
+  border-left: 1px solid transparent;
+  border-right: 1px solid transparent;
   color: #fff;
   font-family: inherit;
   font-size: inherit;
@@ -196,6 +196,7 @@ ol {
   font-size: 75px;
   line-height: 94%;
   text-transform: uppercase;
+  padding-top: 5px;
 }
 
 .content__accent {
@@ -210,7 +211,7 @@ ol {
   overflow: auto;
   overflow-x: hidden;
   gap: 33px;
-  padding-bottom: 3px;
+  padding-top: 3px;
 }
 
 .content__list {
@@ -293,6 +294,10 @@ ol {
   height: 103px;
   object-fit: cover;
   object-position: center;
+}
+
+.more-button {
+  margin-bottom: 2px;
 }
 
 .button {
